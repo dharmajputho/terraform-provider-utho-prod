@@ -8,7 +8,7 @@ terraform {
   required_providers {
     utho = {
       source  = "nitinuthocloud/utho"
-      version = ">= 0.2.43"
+      version = "~> 0.7"
     }
   }
   required_version = ">= 1.0"
