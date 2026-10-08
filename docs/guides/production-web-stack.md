@@ -49,7 +49,7 @@ terraform {
   required_providers {
     utho = {
       source  = "nitinuthocloud/utho"
-      version = "~> 0.2"
+      version = "~> 0.7"
     }
   }
 }
