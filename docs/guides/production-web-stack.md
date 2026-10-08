@@ -48,7 +48,7 @@ Terraform works out the dependencies between these resources from the references
 terraform {
   required_providers {
     utho = {
-      source  = "dharmajputho/utho-dev"
+      source  = "nitinuthocloud/utho"
       version = "~> 0.2"
     }
   }

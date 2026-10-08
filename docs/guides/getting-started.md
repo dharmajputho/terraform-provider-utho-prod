@@ -24,7 +24,7 @@ Create a new directory and add a file named `main.tf`:
 terraform {
   required_providers {
     utho = {
-      source  = "dharmajputho/utho-dev"
+      source  = "nitinuthocloud/utho"
       version = "~> 0.2"
     }
   }

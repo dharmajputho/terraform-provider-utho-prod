@@ -80,7 +80,7 @@ Unset these variables when you are done, because debug logs grow quickly.
 
 ## Reporting an issue
 
-If you think you have found a bug, open an issue on the provider's [GitHub repository](https://github.com/dharmajputho/terraform-provider-utho-dev/issues) and include:
+If you think you have found a bug, open an issue on the provider's [GitHub repository](https://github.com/uthoplatforms/terraform-provider-utho/issues) and include:
 
 * The output of `terraform version`, including the Utho provider version.
 * A minimal configuration that reproduces the problem, with secrets removed.

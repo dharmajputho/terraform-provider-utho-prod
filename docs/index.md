@@ -18,7 +18,7 @@ To learn the basics of Terraform using this provider, follow the [Getting Starte
 terraform {
   required_providers {
     utho = {
-      source  = "dharmajputho/utho-dev"
+      source  = "nitinuthocloud/utho"
       version = "~> 0.2"
     }
   }
@@ -110,4 +110,4 @@ Not every service, plan, or feature is available in every data center. Use the [
 
 * Browse the [Guides](guides/getting-started) for tutorials and common workflows.
 * See [Debugging and Troubleshooting](guides/troubleshooting) for common errors and how to enable debug logging.
-* Report bugs or request features on the provider's [GitHub repository](https://github.com/dharmajputho/terraform-provider-utho-dev/issues).
+* Report bugs or request features on the provider's [GitHub repository](https://github.com/uthoplatforms/terraform-provider-utho/issues).

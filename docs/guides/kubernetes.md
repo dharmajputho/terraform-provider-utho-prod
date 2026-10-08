@@ -29,7 +29,7 @@ The reliable pattern, recommended by HashiCorp for every managed Kubernetes serv
 terraform {
   required_providers {
     utho = {
-      source  = "dharmajputho/utho-dev"
+      source  = "nitinuthocloud/utho"
       version = "~> 0.2"
     }
   }
@@ -112,7 +112,7 @@ In a separate directory, read the cluster's kubeconfig and use it to configure t
 terraform {
   required_providers {
     utho = {
-      source  = "dharmajputho/utho-dev"
+      source  = "nitinuthocloud/utho"
       version = "~> 0.2"
     }
     kubernetes = {
