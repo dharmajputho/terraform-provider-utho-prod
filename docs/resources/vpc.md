@@ -114,6 +114,7 @@ resource "utho_cloud" "app" {
   count           = 3
   hostname        = "app-${count.index + 1}.mhc"
   dcslug          = "inmumbaizone2"
+  planid          = "10360"
   billingcycle    = "hourly"
   auth            = "option2"
   sshkeys         = utho_ssh_key.deploy.id
