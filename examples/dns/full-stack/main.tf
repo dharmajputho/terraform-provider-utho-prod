@@ -15,8 +15,8 @@
 terraform {
   required_providers {
     utho = {
-      source  = "nitinuthocloud/utho"
-      version = "~> 0.7"
+      source  = "dharmajputho/utho-dev"
+      version = ">= 0.1.82"
     }
   }
   required_version = ">= 1.0"

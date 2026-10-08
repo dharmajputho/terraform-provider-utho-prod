@@ -38,8 +38,8 @@ In production, application servers and databases usually should not be reachable
 terraform {
   required_providers {
     utho = {
-      source  = "nitinuthocloud/utho"
-      version = "~> 0.7"
+      source  = "dharmajputho/utho-dev"
+      version = "~> 0.2"
     }
   }
 }
